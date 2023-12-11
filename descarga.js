@@ -3,7 +3,6 @@ function descargarArchivo() {
     enlaceDescarga.href = "apk/AsistenciApp.apk";
     enlaceDescarga.download = "AsistenciaApp";
     enlaceDescarga.click();
-    window.close();
   }
 
   window.onload = function() {
