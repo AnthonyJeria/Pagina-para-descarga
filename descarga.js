@@ -1,7 +1,7 @@
 function descargarArchivo() {
     const enlaceDescarga = document.createElement("a");
     enlaceDescarga.href = "apk/AsistenciApp.apk";
-    enlaceDescarga.download = "AsistenciaApp";
+    enlaceDescarga.download = "RegitrApp";
     enlaceDescarga.click();
   }
 
